@@ -1,0 +1,30 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each orders}}
+            <div class="col-md-3">
+                <div class="card text-center" style="height: 100%;">
+                    <div class="card-body">
+                            <h3 class="card-title text-uppercase">
+                                Orden #{{id}}
+                            </h3>
+                        <p>Pedido: {{fechaPedido}}
+                            Entrega: {{horaEntrega}}
+                        </p>
+
+                        <p class="m-2"><h3>{{descripcion}}</h3></p>
+                        <a href="/links/delete/{{id}}" class="btn btn-primary" style="width: 190px; font-size=">Eliminar orden</a>
+                        <a href="/links/edit/{{id}}" class="btn btn-secondary">Editar</a>
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            <div class="col-md-4 mx-auto">
+                <div class="card card-body text-center">
+                    <p>No se han realizado pedidos</p>
+                    <p>Puedes realizar tu pedido <a href="/links/add"> aquí</a></p>
+                    
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
