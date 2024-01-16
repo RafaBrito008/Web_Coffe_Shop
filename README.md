@@ -9,7 +9,11 @@ This web application is designed for a coffee shop restaurant. It allows custome
 - Access restaurant location and contact information
 
 ![1JPG](https://github.com/RafaBrito008/Web_Coffe_Shop/assets/94416107/88d045e0-7cad-4e49-a273-1e7360c02b28)
+
 ![2](https://github.com/RafaBrito008/Web_Coffe_Shop/assets/94416107/8810b251-3937-420d-a514-51d1e04200b4)
+
+![3](https://github.com/RafaBrito008/Web_Coffe_Shop/assets/94416107/e2e9bacd-0f25-4335-a23b-7226f90e0111)
+
 
 
 ## Project Structure
